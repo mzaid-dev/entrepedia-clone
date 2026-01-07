@@ -31,7 +31,7 @@ const SecondaryCTA = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-6">
-                        <button className="bg-accent-red text-white py-5 px-10 rounded-full font-black text-lg flex items-center justify-center gap-4 hover:shadow-[0_20px_40px_-10px_rgba(255,0,0,0.5)] active:scale-95 transition-all">
+                        <button className="bg-accent-red text-white h-16 px-10 rounded-full font-black text-lg flex items-center justify-center gap-4 hover:shadow-[0_20px_40px_-10px_rgba(255,0,0,0.5)] active:scale-95 transition-all hover:brightness-110">
                             Learn about Master Library
                             <ArrowRight size={20} />
                         </button>

@@ -241,11 +241,11 @@ const CommunitySection = () => {
                 <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="group bg-accent-red text-white py-6 px-12 rounded-full font-bold text-xl md:text-2xl inline-flex items-center gap-6 shadow-[0_20px_50px_rgba(255,0,0,0.3)] hover:shadow-[0_25px_60px_rgba(255,0,0,0.5)] transition-all"
+                    className="group bg-accent-red text-white h-20 px-12 rounded-full font-black text-xl md:text-2xl inline-flex items-center gap-6 shadow-[0_20px_50px_rgba(255,0,0,0.3)] hover:shadow-[0_25px_60px_rgba(255,0,0,0.5)] transition-all"
                 >
                     Get Custom Digital Product
-                    <div className="bg-white/10 group-hover:bg-white/20 p-2 rounded-full transition-colors">
-                        <ArrowRight size={24} />
+                    <div className="bg-black/20 group-hover:bg-black/40 p-3 rounded-full transition-colors">
+                        <ArrowRight size={28} />
                     </div>
                 </motion.button>
             </section>
