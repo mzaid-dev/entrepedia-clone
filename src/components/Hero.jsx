@@ -1,16 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Star, CheckCircle2 } from 'lucide-react';
-import avatar1 from '../assets/avators/1.png';
-import avatar2 from '../assets/avators/2.webp';
-import avatar3 from '../assets/avators/3.png';
-import avatar4 from '../assets/avators/4.jpg';
-import avatar5 from '../assets/avators/5.jpg';
 
 import InfiniteSlider from './InfiniteSlider';
 
 const Hero = () => {
-    const avatars = [avatar1, avatar2, avatar3, avatar4, avatar5];
+    const avatars = [
+        "https://randomuser.me/api/portraits/women/44.jpg",
+        "https://randomuser.me/api/portraits/men/32.jpg",
+        "https://randomuser.me/api/portraits/women/26.jpg",
+        "https://randomuser.me/api/portraits/men/86.jpg",
+        "https://randomuser.me/api/portraits/women/65.jpg"
+    ];
 
     return (
         <section className="py-24 relative text-center min-h-screen flex flex-col items-center justify-center overflow-hidden">
