@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <nav className="px-8 py-6 w-full relative z-[1000] pt-[60px]">
+            <nav className="px-6 md:px-8 py-6 w-full relative z-[1000] pt-[60px]">
                 <div className="flex items-center justify-between max-w-[1200px] mx-auto">
                     {/* Logo */}
                     <div className="flex items-center gap-2.5 group cursor-pointer">
